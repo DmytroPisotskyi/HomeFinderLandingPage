@@ -166,11 +166,42 @@ input[type="radio"]:checked + label {
 }
 
 
-.option__group--active {
+.option__group.active {
+    display: flex;
+    width: 100%;
+    max-width: 750px;
+    justify-content: space-between;
+}
+
+
+.header__option {
     display: flex;
 }
 
 
-.title__block {
-    display: flex;
+.option__item.border{
+   border-width: 50px;
+   border-left: 1px solid #CFCCCC;
+   border-right: 1px solid #CFCCCC;
+   padding-left: 100px;
+   padding-right: 100px;
+   margin-top: 40px;
+}
+
+.option__item{
+    margin-top: 40px;
+}
+
+
+.header__option {
+   padding-top: 20px; 
+}
+
+
+.header__title {
+    font-size: 18px;
+    font-weight: 400;
+    color: #677071;
+
+    padding-left: 10px;
 }

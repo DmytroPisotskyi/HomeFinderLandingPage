@@ -45,23 +45,23 @@
             <form class="form" action="/" method="post">
                 <div class="radio__group"><!--Radio-->
                    <div class="radio__item">
-                        <input type="radio" name="type_operation" id="rent">
-                        <label for="rent">Rent</label>  
+                        <input type="radio" name="tab" id="tab1" checked>
+                        <label for="tab1">Rent</label>  
                    </div>
                     <div class="radio__item">
-                        <input type="radio" name="type_operation" id="buy">
-                        <label for="buy">Buy</label>
+                        <input type="radio" name="tab" id="tab2">
+                        <label for="tab2">Buy</label>
                     </div>
                     <div class="radio__item">
-                        <input type="radio" name="type_operation" id="sell">
-                        <label for="sell">Sell</label>
+                        <input type="radio" name="tab" id="tab3">
+                        <label for="tab3">Sell</label>
                     </div>
                 </div><!--/Radio-->
-                <div class="option__group--active"><!--Option__rent-->
+                <div class="option__group active" id="content1"><!--Option__rent-->
                     <div class="option__item">
-                        <div class="title__block">
+                        <div class="header__option">
                             <img src="img/location.png">
-                            <h5>Location</h5>
+                            <h5 class="header__title">Location</h5>
                         </div>
                         <select name="location">
                             <option>Los Angels</option>
@@ -71,10 +71,10 @@
                             <option>Dallas</option>
                         </select>
                     </div>
-                    <div class="option__item">
-                        <div class="title__block">
+                    <div class="option__item border">
+                        <div class="header__option">
                             <img src="img/propertytype.png">
-                            <h5>Property Type</h5>
+                            <h5 class="header__title">Property Type</h5>
                         </div>
                         <select name="proptupe">
                             <option>Apartment</option>
@@ -88,9 +88,9 @@
                         </select>
                     </div>
                         <div class="option__item">
-                            <div class="title__block">
+                            <div class="header__option">
                                 <img src="img/prise.png">
-                                <h5>Average Price</h5>
+                                <h5 class="header__title">Average Price</h5>
                             </div>
                         <select name="prise">
                             <option>$4000 - 5000</option>
@@ -100,11 +100,11 @@
                         </select>
                     </div>
                 </div><!--/Option__rent-->
-                <div class="option__group"><!--Option__buy-->
+                <div class="option__group" id="content2"><!--Option__buy-->
                     <div class="option__item">
-                        <div class="title__block">
+                        <div class="header__option">
                             <img src="img/location.png">
-                            <h5>Location</h5>
+                            <h5 class="header__title">Location</h5>
                         </div>
                         <select name="location">
                             <option>Los Angels</option>
@@ -115,9 +115,9 @@
                         </select>
                     </div>
                     <div class="option__item">
-                        <div class="title__block">
+                        <div class="header__option">
                             <img src="img/propertytype.png">
-                            <h5>Property Type</h5>
+                            <h5 class="header__title">Property Type</h5>
                         </div>
                         <select name="proptupe">
                             <option>Apartment</option>
@@ -131,9 +131,9 @@
                         </select>
                     </div>
                         <div class="option__item">
-                            <div class="title__block">
+                            <div class="header__option">
                                 <img src="img/prise.png">
-                                <h5>Average Price</h5>
+                                <h5 class="header__title">Average Price</h5>
                             </div>
                         <select name="prise">
                             <option>$200 000 - 300 000</option>
@@ -144,11 +144,11 @@
                         </select>
                     </div>
                 </div><!--/Option__buy-->
-                <div class="option__group"><!--Option__sell-->
+                <div class="option__group" id="content3"><!--Option__sell-->
                     <div class="option__item">
-                        <div class="title__block">
+                        <div class="header__option">
                             <img src="img/location.png">
-                            <h5>Location</h5>
+                            <h5 class="header__title">Location</h5>
                         </div>
                         <select name="location">
                             <option>Los Angels</option>
@@ -159,9 +159,9 @@
                         </select>
                     </div>
                     <div class="option__item">
-                        <div class="title__block">
+                        <div class="header__option">
                             <img src="img/propertytype.png">
-                            <h5>Property Type</h5>
+                            <h5 class="header__title">Property Type</h5>
                         </div>
                         <select name="proptupe">
                             <option>Apartment</option>
@@ -175,9 +175,9 @@
                         </select>
                     </div>
                         <div class="option__item">
-                            <div class="title__block">
+                            <div class="header__option">
                                 <img src="img/prise.png">
-                                <h5>Average Price</h5>
+                                <h5 class="header__title">Average Price</h5>
                             </div>
                         <select name="prise">
                             <option>$200 000 - 300 000</option>
@@ -192,5 +192,6 @@
         </div><!--form__search-->
     </div><!--/Container-->
 </div><!--/Intro-->
+<script src="js/radioTab.js"></script>
 </body>
 </html>
