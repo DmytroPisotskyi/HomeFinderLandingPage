@@ -285,3 +285,61 @@ option {
 .content-slider__inner {
     padding-top: 50px;
 }
+
+
+.slider__item {
+    
+    width: 100%;
+    max-width: 520px;
+    padding: 40px;
+}
+
+.slider__img {
+    width: 452px;
+    height: 352px;
+}
+
+.slider__title {
+    color: #021112;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.subtitle-page.slider {
+    padding-top: 10px;
+}
+
+.slider__item-button {
+    width: 100%;
+    display: block;
+    padding: 10px 0;
+
+    color: #13A6BA;
+    font-size: 29px;
+    font-weight: 600;
+
+    text-decoration: none;
+
+    border: 1px solid;
+    background-color: #fff;
+    border-radius: 20px;
+
+    text-align: center;
+}
+
+.slider__item-button:hover {
+    color: #fff;
+    background-color: #13A6BA;
+    transition: .4s linear;
+}
+
+.slider__item-button:active {
+    color: #fff;
+    background-color: #097280;
+}
+
+
+
+.slider {
+    display: flex;
+}
