@@ -465,18 +465,35 @@ button {
     padding-top: 20px;
 }
 
+.social__link {
+    display: block;
+    
+}
+
+.social__item:hover {
+    background-color: #097280;
+}
+
 
 .social__item {
-    width: 40xp;
-    height: 40px;
-    
    
-    border: 1px solid grey;
+    transition:  background-color .2s linear;
+   
    
 }
 
 .social__logo {
-    justify-content: center;
-    align-items: center;
+    display: block;
     padding: 5px;
+
+    width: 30px;
+    height: 30px;
+    
+   
+    border: 1px solid grey;
+    
+   
+   
+
+   
 }
